@@ -1,0 +1,59 @@
+/* Header.css */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 20px; */
+  border-bottom: 1px solid #eee;
+  font-family: sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo-icon {
+  width: 80px;
+  height: 50px;
+  object-fit: contain; /* giữ tỉ lệ ảnh */
+  border-radius: 8px;  /* tuỳ chọn: bo góc */
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.login-icon {
+  font-size: 18px;
+  color: #c62828; /* đỏ thô */
+}
+
+.login-text {
+  color: #c62828;
+  font-weight: 600;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lang-select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+}
+
+.lang-select:hover {
+  border-color: #ff3b3f;
+}
